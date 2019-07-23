@@ -1,1 +1,13 @@
-# file_upload_download
+## 代码介绍：
+### ftp_server:作用是一个ftp服务器，存放文件，为客户端下载文件提供源文件。
+### ftp_client:作用是发起socket请求并于server建立连接，可以进行人机交互，输入具体执行的操作。
+
+
+## 代码运行：
+### 首先在代码文件的存放目录创建一个文件xxx
+### 先运行server端，在运行client端，在client进行人机交互，例如：输入get xxx 或者 put xxx
+
+## 代码运行完成后的文件说明：
+### xxx：源文件
+### xxx2：上传的文件
+### xxx3：下载的文件
